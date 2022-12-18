@@ -40,10 +40,36 @@ section {
             padding: 1rem 0;
             border-bottom: 1px solid #000;
 
-            h3 {
-                cursor: pointer;
-                &:hover {
-                    color: #777;
+            .titleBox {
+                display: flex;
+
+                h3 {
+                    display: flex;
+                    cursor: pointer;
+                    &:hover {
+                        color: #777;
+                    }
+                }
+                .likeBox {
+                    margin-left: auto;
+
+                    &:hover {
+                        color: red;
+                    }
+                    &:active {
+                        color: #000;
+                    }
+                }
+
+                .changeWordBox {
+                    margin-left: 0.5rem;
+
+                    &:hover {
+                        color: red;
+                    }
+                    &:active {
+                        color: #000;
+                    }
                 }
 
                 span {
@@ -51,6 +77,10 @@ section {
                     padding: 0 0.5rem;
                     cursor: pointer;
                 }
+            }
+
+            .content {
+                margin-bottom: 1rem;
             }
         }
 
