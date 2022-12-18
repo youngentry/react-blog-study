@@ -70,7 +70,7 @@ function App() {
                 </div>
                 <ul>
                     {postTitle.map((title, index) => (
-                        <li className="list">
+                        <li key={index} className="list">
                             <div className="titleBox">
                                 <h3 className="postTitle" onClick={() => isModalVisible(index)}>
                                     {title}
