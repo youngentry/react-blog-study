@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/youngentry/react-blog-study/static/css/main.2c7a354a.css",
-    "main.js": "/youngentry/react-blog-study/static/js/main.6bb001e4.js",
-    "index.html": "/youngentry/react-blog-study/index.html",
-    "main.2c7a354a.css.map": "/youngentry/react-blog-study/static/css/main.2c7a354a.css.map",
-    "main.6bb001e4.js.map": "/youngentry/react-blog-study/static/js/main.6bb001e4.js.map"
+    "main.css": "/react-blog-study/static/css/main.2c7a354a.css",
+    "main.js": "/react-blog-study/static/js/main.6bb001e4.js",
+    "index.html": "/react-blog-study/index.html",
+    "main.2c7a354a.css.map": "/react-blog-study/static/css/main.2c7a354a.css.map",
+    "main.6bb001e4.js.map": "/react-blog-study/static/js/main.6bb001e4.js.map"
   },
   "entrypoints": [
     "static/css/main.2c7a354a.css",
