@@ -15,6 +15,10 @@ section {
     border-bottom: 1px solid #ddd;
 }
 
+.writePostForm {
+    margin: 1rem 0 0 2rem;
+}
+
 .post {
     .titleCategory {
         display: flex;
@@ -50,42 +54,27 @@ section {
                         color: #777;
                     }
                 }
-                .likeBox {
+                .buttonBox {
+                    display: flex;
                     margin-left: auto;
 
-                    &:hover {
-                        color: red;
-                    }
-                    &:active {
-                        color: #000;
-                    }
-                }
+                    button {
+                        border: 1px solid #ddd;
+                        cursor: pointer;
 
-                .changeWordBox {
-                    margin-left: 0.5rem;
-
-                    &:hover {
-                        color: red;
+                        &:hover {
+                            color: red;
+                        }
+                        &:active {
+                            color: #000;
+                        }
                     }
-                    &:active {
-                        color: #000;
+                    .remove {
+                        margin-left: 0.5rem;
                     }
-                }
-
-                span {
-                    border: 1px solid #ddd;
-                    padding: 0 0.5rem;
-                    cursor: pointer;
                 }
             }
 
-            .content {
-                margin-bottom: 1rem;
-            }
-        }
-
-        .postTitle {
-            font-weight: 500;
             margin-bottom: 1.5rem;
         }
 
@@ -103,6 +92,27 @@ section {
         }
         .date {
             margin-bottom: 1rem;
+        }
+        .content {
+            margin-bottom: 1rem;
+        }
+
+        .postTitle {
+            font-weight: 500;
+        }
+        .changeWordBox {
+            & button {
+                padding: 0 1rem;
+                cursor: pointer;
+                border: 1px solid #000;
+
+                &:hover {
+                    color: red;
+                }
+                &:active {
+                    color: #000;
+                }
+            }
         }
     }
 }
