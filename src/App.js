@@ -122,7 +122,7 @@ const manToWoman = (index, setPostTitle, originalData) => {
 };
 
 const Modal = (props) => {
-    // 22.12.17 20:10 컴포넌트는 언제 만들면 좋은가
+    // 22.12.17 20:10 컴포넌트는 언제 만들면 좋은가 - 페이지를 만들 때
     // 1. 반복적인 html 축약할 때
     // 2. 큰 페이지
     // 3. 자주 변경되는 내용을 포함할 때
